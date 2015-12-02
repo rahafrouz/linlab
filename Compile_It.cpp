@@ -82,7 +82,7 @@ int main() {
         gotoxy(45-a-2,16);
         cout << "        ";
 
-
+//iam comment
     }
 
     for(int a =40; a>=3; a--){
