@@ -39,7 +39,7 @@ int main() {
     loading();
     system("cls");
     gotoxy(16,1); cout <<"   FISH ANIMATION";
-      gotoxy(5,2); cout << "By me :D ";
+      gotoxy(5,2); //cout << "By me :D ";
     for(int a =1; a<50; a=a+2){
         gotoxy(a,3);
         cout << "~^";
@@ -108,7 +108,7 @@ int main() {
     time++;
     }
 
-    getch();
+    _getch();
     system("cls");
 return 0;
 }
