@@ -1,0 +1,299 @@
+    1  apt-get install git
+    2  sudo apt-get install git
+    3  sudo su
+    4  ls
+    5  cd Desktop/
+    6  mkdir gittest
+    7  ls
+    8  sudo su
+    9  cd gittest/
+   10  git init 
+   11  git statsu
+   12  git status
+   13  subl file\ 1.html 
+   14  git status
+   15  git add .
+   16  git commit -m "add file1.html with h1"
+   17  git config --global user.name "mohsen"
+   18  git config user.
+   19  git config user.name 
+   20  git config user.email "rahnamaei_158@yahoo.com"
+   21  git commit -m "add file1.html with h1"
+   22  git status
+   23  git branch 
+   24  subl file\ 1.html 
+   25  git diff
+   26  git diff --staged 
+   27  git status 
+   28  git add .
+   29  git status
+   30  git diff
+   31  git diff --staged 
+   32  git commit -m "second commit with add p tag"
+   33  git log
+   34  git status
+   35  git branch new_branch
+   36  git branch 
+   37  git checkout new_branch 
+   38  git log
+   39  subl file\ 1.html 
+   40  git status
+   41  git diff
+   42  git commit -m "in third commit  with change in p tag"
+   43  git commit -am "in third commit  with change in p tag"
+   44  git log
+   45  git checkout master 
+   46  subl file\ 1.html 
+   47  git status
+   48  git add .
+   49  git commit -m "third commit in master branc with change the p tag"
+   50  git log
+   51  git merge new_branch 
+   52  git status 
+   53  subl file\ 1.html 
+   54  apt-get install gcc
+   55  apt-get install g++
+   56  git status
+   57  subl file\ 1.html 
+   58  git commit -m "commit without any change in merge"
+   59  git mergetool --tool
+   60  git mergetool --tool=tortoisemerge 
+   61  git mergetool --tool=
+   62  git mergetool --tool
+   63  git mergetool --tool-help
+   64  gitk
+   65  apt-get install git-cola
+   66  apt-get install git-kola
+   67  apt-get install git-gui
+   68  sudo apt-get install git-gui
+   69  git-gui
+   70  git gui
+   71  sudo apt-get install git g
+   72  sudo apt-get install gitg
+   73  gitg
+   74  git log
+   75  gitg
+   76  cd ~/Desktop/
+   77  mkdir homework
+   78  cd homework/
+   79  apt-get install telegram
+   80  git init 
+   81  touch file1.cc
+   82  git add
+   83  git add .
+   84  git commit -m "first commit"
+   85  ssh git@github.com:mohsen158/first.git
+   86  git remote
+   87  git remote add origin https://github.com/mohsen158/first.git
+   88  git remote
+   89  git fetch 
+   90  git fetch origin 
+   91  git log
+   92  git pull origin 
+   93  git branch newbranch
+   94  git checkout newbranch 
+   95  git pull origin master 
+   96  git push -u origin newbranch 
+   97  git pull
+   98  git remote add originlinlab https://github.com/rahafrouz/linlab.git
+   99  git remote 
+  100  git pull originlinlab 
+  101  git pull originlinlab master 
+  102  git status 
+  103  git reset HEAD 
+  104  git status 
+  105  git pull originlinlab master 
+  106  git commit -am "befor merge with lonlab"
+  107  git add .
+  108  git commit -am "befor merge with lonlab"
+  109  git status
+  110  git pull originlinlab master 
+  111  subl file1.cc 
+  112  whereis gc
+  113  whereis gcc
+  114  which gcc
+  115  gcc --version
+  116  gcc test\ file.cpp -o tes.f
+  117  subl test\ file.cpp 
+  118  apt-get install gcc
+  119  sudo apt-get install gcc
+  120  gcc file1.cc -o test.f
+  121  subl file1.cc 
+  122  gcc file1.cc -o test.f
+  123  subl file1.cc l
+  124  subl file1.cc 
+  125  gcc file1.cc -o test
+  126  apt-get install g++
+  127  sudo apt-get install g++
+  128  g++ file1.cc -o test
+  129  ./test 
+  130  git push originlinlab 
+  131  git add .
+  132  git commit -m "my commit"
+  133  git push originlinlab 
+  134  git fetch originlinlab 
+  135  git pull 
+  136  git push originlinlab master 
+  137  git help pull
+  138  git push originlinlab master 
+  139  git pull 
+  140  git push originlinlab master 
+  141  git branch 
+  142  git status
+  143  git push originlinlab newbranch 
+  144  git branch -D newbranch 
+  145  git checkout master 
+  146  git branch -D newbranch 
+  147  rm file1.cc 
+  148  git pull originlinlab master 
+  149  git pull originlinlab newbranch 
+  150  git pull originlinlab master 
+  151  git branch 
+  152  git pull originlinlab master 
+  153  rm .
+  154  git pull originlinlab master 
+  155  git branch 
+  156  git pull originlinlab 
+  157  git pull originlinlab master 
+  158  git fetch originlinlab 
+  159  git merge originlinlab/ master 
+  160  git push originlinlab 
+  161  git pull originlinlab 
+  162  git pull originlinlab master 
+  163  git statsu
+  164  ls
+  165  git branch 
+  166  git pull originlinlab newbranch 
+  167  ls
+  168  git statsu
+  169  git status 
+  170  git checkout 
+  171  git statsu
+  172  git status 
+  173  git checkout master 
+  174  git checkout originlinlab/master 
+  175  git status 
+  176  git pull originlinlab master 
+  177  git checkout originlinlab master 
+  178  git pull originlinlab master 
+  179  git status
+  180  git checkout originlinlab/master 
+  181  git branch 
+  182  git branch master 
+  183  git checkout master 
+  184  git branch 
+  185  git status 
+  186  git pull originlinlab master 
+  187  git commit -a "Amir deleted"
+  188  git commit -am "Amir deleted"
+  189  git status 
+  190  git pull originlinlab master 
+  191  git pull originlinlab 
+  192  git status 
+  193  git add .
+  194  git statsu
+  195  git status 
+  196  git add .
+  197  git add --all
+  198  git status 
+  199  git commit -m "deleted some file:
+"
+  200  git statsu
+  201  git status 
+  202  git pull originlinlab master 
+  203  git branch 
+  204  git checkout master 
+  205  git status 
+  206  git fetch 
+  207  git merge originlinlab/master 
+  208  git clone https://github.com/rahafrouz/linlab.git
+  209  cd linlab/
+  210  ls
+  211  git status 
+  212  git rm file1.cc 
+  213  git status 
+  214  git commit -m "delete"
+  215  git push originlin
+  216  git remote 
+  217  cd ..
+  218  git remote 
+  219  ls
+  220  git status 
+  221  rm linlab/
+  222  git statu
+  223  git status 
+  224  rm linlab/
+  225  rmdir linlab/
+  226  git status 
+  227  git branch newbranch
+  228  git checkout newbranch 
+  229  git push originlinlab 
+  230  git reset --hard originlinlab/master 8eb027be9f2a6c388acca8849ee12d6edcab99d9
+  231  git reset --hard 8eb027be9f2a6c388acca8849ee12d6edcab99d9
+  232  git push originlinlab master 
+  233  git status 
+  234  git push originlinlab newbranch 
+  235  git pull originlinlab master 
+  236  git reset 8eb027be9f2a6c388acca8849ee12d6edcab99d9
+  237  git checkout master 
+  238  git reset --hard 8eb027be9f2a6c388acca8849ee12d6edcab99d9
+  239  git push -f originlinlab master 
+  240  git branch -D originlinlab/newbranch 
+  241  git push originlinlab --delete newbranch 
+  242  git branch mohsen_branch
+  243  git branch 
+  244  git checkout mohsen_branch 
+  245  sudo apt-get install telegram
+  246  git branch 
+  247  subl fish.cpp 
+  248  gcc fish.cpp -o fish.run
+  249  g++ fish.cpp -o fish.run
+  250  subl fish.cpp 
+  251  gcc fish.cpp -o fish.run
+  252  subl fish.cpp 
+  253  gcc fish.cpp -o fish.run
+  254  subl fish.cpp 
+  255  gcc fish.cpp -o fish.run
+  256  subl fish.cpp 
+  257  gcc fish.cpp -o fish.run
+  258  sudo apt-get install mingw32
+  259  i586-mingw32msvc-g++ -s -o output.exe fish.cpp
+  260  ./output.exe 
+  261  i586-mingw32msvc-g++ -mwindows fish.cpp 
+  262  ./a.exe 
+  263  mv fish.cpp compile it.cpp
+  264  mv fish.cpp compileit.cpp
+  265  mv fish.cpp compile_it.cpp
+  266  mv fish.cpp CompilIt.cpp
+  267  mv compileit.cpp Compile_It.cpp
+  268  git status
+  269  git add .
+  270  git status
+  271  git rm .
+  272  git rm Amir-Rahafrouz.md 
+  273  git rm README.md 
+  274  git status
+  275  git commit -m ":D"
+  276  git log
+  277  git push originlinlab mohsen_branch 
+  278  subl Compile_It.cpp 
+  279  git add .
+  280  git commit -m ":D"
+  281  git push originlinlab mohsen_branch 
+  282  subl Compile_It.cpp 
+  283  git commit -a ":D"
+  284  git commit -am ":D"
+  285  git push originlinlab mohsen_branch 
+  286  git reset --hard originlinlab/master 8eb027be9f2a6c388acca8849ee12d6edcab99d9
+  287  git reset --hard originlinlab 8eb027be9f2a6c388acca8849ee12d6edcab99d9
+  288  history 
+  289  git reset --hard 8eb027be9f2a6c388acca8849ee12d6edcab99d9 
+  290  git push -f originlinlab master 
+  291  git branch -D originlinlab/amirbranch
+  292  git  fetch 
+  293  git branch -D originlinlab/amirbranch
+  294  git pull originlinlab 
+  295  git branch -D originlinlab/amirbranch
+  296  git branch -D originlinlab/amirbranch 
+  297  git push originlinlab --delete amirbranch
+  298  history > ~/Desktop/fil.txt
