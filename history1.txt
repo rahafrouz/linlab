@@ -197,103 +197,206 @@
   197  git add --all
   198  git status 
   199  git commit -m "deleted some file:
-"
-  200  git statsu
-  201  git status 
-  202  git pull originlinlab master 
-  203  git branch 
-  204  git checkout master 
-  205  git status 
-  206  git fetch 
-  207  git merge originlinlab/master 
-  208  git clone https://github.com/rahafrouz/linlab.git
-  209  cd linlab/
-  210  ls
-  211  git status 
-  212  git rm file1.cc 
-  213  git status 
-  214  git commit -m "delete"
-  215  git push originlin
-  216  git remote 
-  217  cd ..
-  218  git remote 
-  219  ls
-  220  git status 
-  221  rm linlab/
-  222  git statu
-  223  git status 
-  224  rm linlab/
-  225  rmdir linlab/
-  226  git status 
-  227  git branch newbranch
-  228  git checkout newbranch 
-  229  git push originlinlab 
-  230  git reset --hard originlinlab/master 8eb027be9f2a6c388acca8849ee12d6edcab99d9
-  231  git reset --hard 8eb027be9f2a6c388acca8849ee12d6edcab99d9
-  232  git push originlinlab master 
-  233  git status 
-  234  git push originlinlab newbranch 
-  235  git pull originlinlab master 
-  236  git reset 8eb027be9f2a6c388acca8849ee12d6edcab99d9
-  237  git checkout master 
-  238  git reset --hard 8eb027be9f2a6c388acca8849ee12d6edcab99d9
-  239  git push -f originlinlab master 
-  240  git branch -D originlinlab/newbranch 
-  241  git push originlinlab --delete newbranch 
-  242  git branch mohsen_branch
-  243  git branch 
-  244  git checkout mohsen_branch 
-  245  sudo apt-get install telegram
-  246  git branch 
-  247  subl fish.cpp 
-  248  gcc fish.cpp -o fish.run
-  249  g++ fish.cpp -o fish.run
-  250  subl fish.cpp 
-  251  gcc fish.cpp -o fish.run
-  252  subl fish.cpp 
-  253  gcc fish.cpp -o fish.run
-  254  subl fish.cpp 
-  255  gcc fish.cpp -o fish.run
-  256  subl fish.cpp 
-  257  gcc fish.cpp -o fish.run
-  258  sudo apt-get install mingw32
-  259  i586-mingw32msvc-g++ -s -o output.exe fish.cpp
-  260  ./output.exe 
-  261  i586-mingw32msvc-g++ -mwindows fish.cpp 
-  262  ./a.exe 
-  263  mv fish.cpp compile it.cpp
-  264  mv fish.cpp compileit.cpp
-  265  mv fish.cpp compile_it.cpp
-  266  mv fish.cpp CompilIt.cpp
-  267  mv compileit.cpp Compile_It.cpp
-  268  git status
-  269  git add .
-  270  git status
-  271  git rm .
-  272  git rm Amir-Rahafrouz.md 
-  273  git rm README.md 
-  274  git status
-  275  git commit -m ":D"
-  276  git log
-  277  git push originlinlab mohsen_branch 
-  278  subl Compile_It.cpp 
-  279  git add .
-  280  git commit -m ":D"
-  281  git push originlinlab mohsen_branch 
-  282  subl Compile_It.cpp 
-  283  git commit -a ":D"
-  284  git commit -am ":D"
-  285  git push originlinlab mohsen_branch 
-  286  git reset --hard originlinlab/master 8eb027be9f2a6c388acca8849ee12d6edcab99d9
-  287  git reset --hard originlinlab 8eb027be9f2a6c388acca8849ee12d6edcab99d9
-  288  history 
-  289  git reset --hard 8eb027be9f2a6c388acca8849ee12d6edcab99d9 
-  290  git push -f originlinlab master 
-  291  git branch -D originlinlab/amirbranch
-  292  git  fetch 
-  293  git branch -D originlinlab/amirbranch
-  294  git pull originlinlab 
-  295  git branch -D originlinlab/amirbranch
-  296  git branch -D originlinlab/amirbranch 
-  297  git push originlinlab --delete amirbranch
-  298  history > ~/Desktop/fil.txt
+  200  "
+  201  git statsu
+  202  git status 
+  203  git pull originlinlab master 
+  204  git branch 
+  205  git checkout master 
+  206  git status 
+  207  git fetch 
+  208  git merge originlinlab/master 
+  209  git clone https://github.com/rahafrouz/linlab.git
+  210  cd linlab/
+  211  ls
+  212  git status 
+  213  git rm file1.cc 
+  214  git status 
+  215  git commit -m "delete"
+  216  git push originlin
+  217  git remote 
+  218  cd ..
+  219  git remote 
+  220  ls
+  221  git status 
+  222  rm linlab/
+  223  git statu
+  224  git status 
+  225  rm linlab/
+  226  rmdir linlab/
+  227  git status 
+  228  git branch newbranch
+  229  git checkout newbranch 
+  230  git push originlinlab 
+  231  git reset --hard originlinlab/master 8eb027be9f2a6c388acca8849ee12d6edcab99d9
+  232  git reset --hard 8eb027be9f2a6c388acca8849ee12d6edcab99d9
+  233  git push originlinlab master 
+  234  git status 
+  235  git push originlinlab newbranch 
+  236  git pull originlinlab master 
+  237  git reset 8eb027be9f2a6c388acca8849ee12d6edcab99d9
+  238  git checkout master 
+  239  git reset --hard 8eb027be9f2a6c388acca8849ee12d6edcab99d9
+  240  git push -f originlinlab master 
+  241  git branch -D originlinlab/newbranch 
+  242  git push originlinlab --delete newbranch 
+  243  git branch mohsen_branch
+  244  git branch 
+  245  git checkout mohsen_branch 
+  246  sudo apt-get install telegram
+  247  git branch 
+  248  subl fish.cpp 
+  249  gcc fish.cpp -o fish.run
+  250  g++ fish.cpp -o fish.run
+  251  subl fish.cpp 
+  252  gcc fish.cpp -o fish.run
+  253  subl fish.cpp 
+  254  gcc fish.cpp -o fish.run
+  255  subl fish.cpp 
+  256  gcc fish.cpp -o fish.run
+  257  subl fish.cpp 
+  258  gcc fish.cpp -o fish.run
+  259  sudo apt-get install mingw32
+  260  i586-mingw32msvc-g++ -s -o output.exe fish.cpp
+  261  ./output.exe 
+  262  i586-mingw32msvc-g++ -mwindows fish.cpp 
+  263  ./a.exe 
+  264  mv fish.cpp compile it.cpp
+  265  mv fish.cpp compileit.cpp
+  266  mv fish.cpp compile_it.cpp
+  267  mv fish.cpp CompilIt.cpp
+  268  mv compileit.cpp Compile_It.cpp
+  269  git status
+  270  git add .
+  271  git status
+  272  git rm .
+  273  git rm Amir-Rahafrouz.md 
+  274  git rm README.md 
+  275  git status
+  276  git commit -m ":D"
+  277  git log
+  278  git push originlinlab mohsen_branch 
+  279  subl Compile_It.cpp 
+  280  git add .
+  281  git commit -m ":D"
+  282  git push originlinlab mohsen_branch 
+  283  subl Compile_It.cpp 
+  284  git commit -a ":D"
+  285  git commit -am ":D"
+  286  git push originlinlab mohsen_branch 
+  287  git reset --hard originlinlab/master 8eb027be9f2a6c388acca8849ee12d6edcab99d9
+  288  git reset --hard originlinlab 8eb027be9f2a6c388acca8849ee12d6edcab99d9
+  289  history 
+  290  git reset --hard 8eb027be9f2a6c388acca8849ee12d6edcab99d9 
+  291  git push -f originlinlab master 
+  292  git branch -D originlinlab/amirbranch
+  293  git  fetch 
+  294  git branch -D originlinlab/amirbranch
+  295  git pull originlinlab 
+  296  git branch -D originlinlab/amirbranch
+  297  git branch -D originlinlab/amirbranch 
+  298  git push originlinlab --delete amirbranch
+  299  history > ~/Desktop/fil.txt
+  300  ~/Desktop/
+  301  cd ..
+  302  tar -xz tsetup.0.9.13.tar.xz 
+  303  cd Telegram/
+  304  ls
+  305  ./Telegram 
+  306  ./Updater 
+  307  ls
+  308  cd Desktop/
+  309  cd homework/
+  310  ls
+  311  git branch 
+  312  git pull originlinlab 
+  313  git checkout master 
+  314  ls
+  315  git checkout mohsen_branch 
+  316  git checkout newbranch 
+  317  git pull originlinlab master 
+  318  git pull originlinlab mohsen_branch 
+  319  subl Compile_It.cpp 
+  320  git status
+  321  git add Compile_It.cpp 
+  322  git commit =m "just add comment "
+  323  git commit -m "just add comment "
+  324  git branch 
+  325  git push originlinlab mohsen_branch 
+  326  git help push
+  327  git push originlinlab mohsen_branch 
+  328  git pull originlinlab 
+  329  git pull originlinlab mohsen_branch 
+  330  git push originlinlab mohsen_branch 
+  331  git status
+  332  git push originlinlab m 
+  333  git branch 
+  334  git branch -D mohsen_branch 
+  335  git branch mohsen_branch
+  336  git branch 
+  337  git checkout mohsen_branch 
+  338  git push originlinlab mohsen_branch 
+  339  git reflog mohsen_branch
+  340  git pull originlinlab mohsen_branch 
+  341  git reset --hard originlinlab e70f0cb
+  342  git fetch 
+  343  git fetch originlinlab 
+  344  git merge
+  345  git merge mohsen_branch 
+  346  git branch 
+  347  git fsck --full --no-reflogs --unreachable --lost-found | grep commit | cut -d\  -f3 | xargs -n 1 git log -n 1 --pretty=oneline > lost.txt
+  348  subl lost.txt 
+  349  git reflog mohsen_branch
+  350  git reset --hard e70f0cb
+  351  git push -f originlinlab mohsen_branch 
+  352  git reset --hard 8eb027be9f2a6c388acca8849ee12d6edcab99d9 
+  353  git push -f originlinlab master
+  354  git checkout originlinlab/amirbranch 
+  355  git status
+  356  git commit -m ":D"
+  357  git add .
+  358  git status
+  359  git add .
+  360  git add --all
+  361  git status
+  362  git commit -m ":D"
+  363  git branch
+  364  git branch amrbranch
+  365  git push originlinlab 
+  366  git branch 
+  367  git branch amirbranch
+  368  git push originlinlab amirbranch 
+  369  git branch -D originlinlab/branchForAll 
+  370  git pull originlinlab branchForAll 
+  371  git branch 
+  372  git pull originlinlab branchForAll 
+  373  git branch -D originlinlab/branchForAll 
+  374  git push originlinlab --delete branchForAll
+  375  apt-get install vlc
+  376  sudo apt-get install vlc
+  377  vlc
+  378  git pull originlinlab mohsen_branch 
+  379  git status
+  380  git add --all
+  381  git commit -m "delete farbods file"
+  382  git status
+  383  git pull originlinlab mohsen_branch 
+  384  mv fil.txt history1.txt
+  385  git stastus
+  386  git ad .
+  387  git add .
+  388  git commit -m "put history 1"
+  389  git push originlinlab mohsen_branch 
+  390  git branch 
+  391  git checkout mohsen_branch 
+  392  git add --all
+  393  git commit -m "delete some file"
+  394  git pull originlinlab mohsen_branch 
+  395  git log
+  396  git branch 
+  397  subl history1.txt
+  398  git add .
+  399  git commit -m "put history1"
+  400  git  push originlinlab mohsen_branch 
+  401  history 
+  402  history > history1.txt 
