@@ -1,0 +1,15 @@
+git show <SHA>   // For commits it  shows the log message and diff 
+git show-ref --head  //Show all HEAD SHA
+git show-ref master //To show all SHA references called "master"
+git reflog    // ->> https://git-scm.com/docs/git-reflog
+---
+git commit --amend -m "message"  //to change the last commit (head)
+git checkout  <SHA> <file>  // to move file from the SHA commit to stage
+git checkout -- <file>   //
+git clean   // clean untrack file
+git revert <SHA>  // undoes a committed snapshot and appends a new commit with the resulting
+----
+git reset HEAD <file>   //to unstage file 
+git reset --soft <SHA>  // move head to <SHA> commit (does not change staging index or working directory)
+git reset --mixed <SHA>  //move head to <SHA> commit(change staging index to match repository and does not change working directory)
+git reset --hard <SHA>   //move head to <SHA> commit(change staging index and working directory to match repository)
