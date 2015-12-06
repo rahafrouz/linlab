@@ -1,0 +1,57 @@
+HowTo: Compile And Run a C/C++ Code In Linux 
+
+o compile a C or C++ program on any Linux distro such as Ubuntu, Red Hat, 
+Fedora, Debian and other Linux distro you need to install:
+
+    1.GNU C and C++ compiler collection
+    2.Development tools
+    3.Development libraries
+    4.IDE or text editor to write programs
+
+	Step #1: Install C/C++ compiler and related tools
+
+If you are using Fedora, Red Hat, CentOS, or Scientific Linux,
+ use the following yum command to install GNU c/c++ compiler:
+
+# yum groupinstall 'Development Tools'
+
+If you are using Debian or Ubuntu Linux, 
+type the following apt-get command to install GNU c/c++ compiler:
+
+$ sudo apt-get update
+$ sudo apt-get install build-essential manpages-dev
+
+	Step #2: Verify installation
+
+Type the following command to display the version number 
+and location of the compiler on Linux:
+
+$ whereis gcc
+$ which gcc
+$ gcc --version
+
+Use any one of the following syntax to compile the program called demo.c:
+
+	cc program-source-code.c -o executable-file-name
+
+OR
+
+	gcc program-source-code.c -o executable-file-name
+
+OR
+
+	## assuming that executable-file-name.c exists ##
+	make executable-file-name
+
+Compiling and running a simple C++ program;
+
+	g++ demo2.C -o demo2
+	## or use the following syntax ##
+	make demo2
+
+To run this program, type:
+
+	./demo2
+
+and this is a link ; http://www.cyberciti.biz/faq/howto-compile-and-run-c-cplusplus-code-in-linux/
+
